@@ -93,15 +93,15 @@ a {
     }
 
     .isa{
-        
+    
         width: 100%;
     }
 
     .logo-img{
-       
-        width: 30%;
+    
+        width: 50%;
         position: absolute;
-        
+        z-index: -111111;
     }
 
     .logo-img img{

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bolsa.css">
+    <title>Isacroche</title>
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sair">
+            <a href="../html/kithigienebaby.html">
+                <img src="../assets/icons/fechar.png" alt="">
+            </a>
+            
+        </div>
+        <figure>
+            <figure>
+                <img src="../assets/img/kitidehigiene/3.png" alt="">
+                
+            </figure>
+            <div class="slide">
+                <img src="../assets/img/kitidehigiene/1.png" alt="">
+                <img src="../assets/img/kitidehigiene/2.png" alt="">
+                <img src="../assets/img/kitidehigiene/3.png" alt="">
+
+
+            
+           
+           
+            
+            
+        </div>
+    </div>
+
+    <script>
+        const figureImg = document.querySelector('figure img');
+        const Imgs = document.querySelectorAll('.slide img');
+
+        Imgs.forEach(function(img) {
+            // console.log(img);
+            img.addEventListener('click',function(e) {
+                // console.log(e.target.src);
+                // console.log(figureImg.src);
+                figureImg.src = e.target.src;
+            })
+        })
+    </script>
+</body>
+</html>

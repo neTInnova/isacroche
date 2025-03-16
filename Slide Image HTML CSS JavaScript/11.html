@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bolsa.css">
+    <title>Isacroche</title>
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sair">
+            <a href="../html/bolsa.html">
+                <img src="../assets/icons/fechar.png" alt="">
+            </a>
+            
+        </div>
+        <figure>
+            <img src="../assets/img/bolsa/7.png" alt="">
+            
+        </figure>
+        <div class="slide">
+            <img src="../assets/img/bolsa/1.png">
+            <img src="../assets/img/bolsa/2.png">
+            <img src="../assets/img/bolsa/3.png">
+             <img src="../assets/img/bolsa/4.png">
+             <img src="../assets/img/bolsa/5.png">
+           
+            <img src="../assets/img/bolsa/7.png">
+             <img src="../assets/img/bolsa/8.png">
+            <img src="../assets/img/bolsa/9.png">
+            <img src="../assets/img/bolsa/10.png">
+            <img src="../assets/img/bolsa/11.png">
+            <img src="../assets/img/bolsa/12.png">
+             <img src="../assets/img/bolsa/13.png">
+            <img src="../assets/img/bolsa/14.png">
+            <img src="../assets/img/bolsa/15.png">
+            <img src="../assets/img/bolsa/16.png">
+             <img src="../assets/img/bolsa/17.png">
+            <img src="../assets/img/bolsa/18.png">
+             <img src="../assets/img/bolsa/19.png">
+             <img src="../assets/img/bolsa/20.png">
+            
+            
+        </div>
+    </div>
+
+    <script>
+        const figureImg = document.querySelector('figure img');
+        const Imgs = document.querySelectorAll('.slide img');
+
+        Imgs.forEach(function(img) {
+            // console.log(img);
+            img.addEventListener('click',function(e) {
+                // console.log(e.target.src);
+                // console.log(figureImg.src);
+                figureImg.src = e.target.src;
+            })
+        })
+    </script>
+</body>
+</html>
