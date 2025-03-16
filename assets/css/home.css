@@ -70,17 +70,23 @@ a {
 
 .header {
   
-    top: 0;
-    left: 0;
-    width: 100%;
-  
-    position: fixed;
-    background-color: #FFEFDC;
-    
-  
-    z-index: var(--z-fixed);
-    display: flex;
-    justify-content: center;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:100;
+  display:flex;
+  width:100%;
+  height:80px;
+  color: white;
+  align-items:center;
+  justify-content: space-around;
+  transition: 0.5s;
+  }
+  .header.sticky{
+    color: black;
+    background:#FFEFDC;
+    height:80px;
+    transition: 0.5s;
   }
 
     /*=============== LOGO ===============*/
@@ -107,7 +113,7 @@ a {
     .logo-img img{
         width:30%;
         height: 100%;
-        margin-top: -11%;
+  margin-top: -16%;
         margin-left: 10%;
     }
 
@@ -124,7 +130,7 @@ a {
   .nav__logo, 
   .nav__burger, 
   .nav__close {
-    color: var(--white-color);
+
   
   }
   
@@ -186,20 +192,23 @@ a {
     
   }
   
-  .nav__link {
+  .nav__link{
     
-    color: #000000;
+
     
-    background-color: #FFEFDC;
+
     font-size: 1.29em;
-    
-  
+    color: #000000;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: background-color .3s;
   
   }
+
+
+
   
   .nav__link:hover {
     
