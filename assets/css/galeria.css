@@ -42,8 +42,32 @@ main{
 }
 .saiba-txt{
   
-  width: 73.5%;
+  width: 50%;
+  padding: 2%;
   font-size: 1.5vw;
+  text-indent: 20px;
+  text-align: justify;
+  
+}
+
+.boss{
+  background-image: url(../img/Isa\ cópia.png);
+  width: 20%;
+  height: 50vh;
+  background-size: cover;
+  border-radius: 600px 600px 0px 0px ;
+}
+
+.saiba-txt p{
+  margin-top: 10%;
+}
+
+.saiba-txt h1{
+  font-size: 4vw;
+  margin-top: 10%;
+   margin-left: 20%;
+   border-bottom: solid  1px;
+   width: 60%;
 }
 
 

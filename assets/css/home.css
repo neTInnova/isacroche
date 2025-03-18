@@ -83,8 +83,8 @@ a {
   transition: 0.5s;
   }
   .header.sticky{
-    color: black;
-    background:#FFEFDC;
+    color: white;
+    background:#3B2B1F;
     height:80px;
     transition: 0.5s;
   }
@@ -200,7 +200,7 @@ transform: translateX(-50px);
     
 
     font-size: 1.23vw;
-    color: #000000;
+    color: white;
 
     display: flex;
     justify-content: space-between;
@@ -458,7 +458,7 @@ width: 100%;
 .item-1 {
   z-index: 2;
   opacity: 1;
-  background-image: url(../banner/banner-right.png);
+  background-image: url(../banner/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -492,20 +492,26 @@ align-items: center;
 }
 
 
+  
+
+
 
 
 
 .item-2 {
   
-  background-image: url(../banner/2025.png);
+  background-image: url(../banner/bannerright.png);
   background-repeat: no-repeat;
   background-size: cover;
  
 }
+
 .item-3 {
-  background-image: url(../banner/banner-right.png);
+  
+  background-image: url(../banner/ultimo.png);
   background-repeat: no-repeat;
   background-size: cover;
+ 
 }
 
 *:target ~ .item-1{
@@ -570,6 +576,8 @@ button{
   cursor: pointer;
   
 }
+
+
 
 .qualidade-externo{
  
